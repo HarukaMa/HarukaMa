@@ -6,6 +6,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    environment: default
     permissions:
       contents: write
     steps:
