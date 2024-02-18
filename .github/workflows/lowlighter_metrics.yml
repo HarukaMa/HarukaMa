@@ -30,12 +30,13 @@ jobs:
           base: header, activity, community, repositories, metadata
           base_indepth: yes
           config_timezone: Asia/Tokyo
+          repositories_skipped: "HarukaMa/HarukaMa"
           plugin_followup: yes
           plugin_followup_archived: yes
           plugin_followup_sections: repositories
           plugin_habits: yes
           plugin_habits_charts_type: classic
-          plugin_habits_days: 14
+          plugin_habits_days: 90
           plugin_habits_facts: yes
           plugin_habits_from: 200
           plugin_habits_languages_limit: 8
@@ -52,10 +53,6 @@ jobs:
           plugin_languages_recent_load: 300
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-          plugin_people: yes
-          plugin_people_limit: 24
-          plugin_people_size: 28
-          plugin_people_types: followers, following
           plugin_sponsors: yes
           plugin_sponsors_sections: goal, list, about
           plugin_sponsors_size: 24
@@ -72,16 +69,16 @@ jobs:
           plugin_steam_playtime_threshold: 2
           plugin_steam_recent_games_limit: 2
           plugin_steam_sections: player, recently-played
-          plugin_steam_user: 76561197997655107
+          plugin_steam_user: "76561197997655107"
           plugin_traffic: yes
           plugin_activity: yes
-          plugin_activity_days: 14
+          plugin_activity_days: 30
           plugin_activity_filter: all
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
           plugin_code: yes
-          plugin_code_days: 3
+          plugin_code_days: 90
           plugin_code_lines: 12
           plugin_code_load: 400
           plugin_code_visibility: public
